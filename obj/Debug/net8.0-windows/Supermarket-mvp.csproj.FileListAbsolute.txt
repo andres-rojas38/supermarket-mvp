@@ -65,3 +65,4 @@ C:\Users\XIMEN\OneDrive\Escritorio\Parcial lenguaje de la informacion\Supermarke
 C:\Users\XIMEN\OneDrive\Escritorio\Parcial lenguaje de la informacion\Supermarket-mvp\Supermarket-mvp\obj\Debug\net8.0-windows\Supermarket-mvp.csproj.AssemblyReference.cache
 C:\Users\XIMEN\OneDrive\Escritorio\Parcial lenguaje de la informacion\Supermarket-mvp\Supermarket-mvp\obj\Debug\net8.0-windows\Supermar.FBD2E1F5.Up2Date
 C:\Users\XIMEN\OneDrive\Escritorio\Parcial lenguaje de la informacion\Supermarket-mvp\Supermarket-mvp\bin\Debug\net8.0-windows\Supermarket-mvp.dll.config
+C:\Users\XIMEN\OneDrive\Escritorio\Parcial lenguaje de la informacion\Supermarket-mvp\Supermarket-mvp\obj\Debug\net8.0-windows\Supermarket_mvp.Views.MainView.resources

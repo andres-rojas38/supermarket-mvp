@@ -156,6 +156,7 @@
             // 
             DgPayMode.AllowUserToAddRows = false;
             DgPayMode.AllowUserToDeleteRows = false;
+            DgPayMode.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             DgPayMode.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             DgPayMode.Location = new Point(8, 93);
             DgPayMode.Name = "DgPayMode";
@@ -166,7 +167,7 @@
             // BtnSearch
             // 
             BtnSearch.Image = Properties.Resources.search_small;
-            BtnSearch.Location = new Point(449, 25);
+            BtnSearch.Location = new Point(509, 25);
             BtnSearch.Name = "BtnSearch";
             BtnSearch.Size = new Size(50, 48);
             BtnSearch.TabIndex = 2;
@@ -177,7 +178,7 @@
             TxtSearch.Location = new Point(18, 39);
             TxtSearch.Name = "TxtSearch";
             TxtSearch.PlaceholderText = "Data to search";
-            TxtSearch.Size = new Size(100, 23);
+            TxtSearch.Size = new Size(485, 23);
             TxtSearch.TabIndex = 1;
             // 
             // label2

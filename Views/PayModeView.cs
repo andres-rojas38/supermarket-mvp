@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Supermarket_mvp._Repositories;
 
 namespace Supermarket_mvp.Views
 {
@@ -36,6 +37,7 @@ namespace Supermarket_mvp.Views
                 }
             };
         }
+
 
         public string PayModeId
         {
@@ -91,6 +93,25 @@ namespace Supermarket_mvp.Views
         {
             DgPayMode.DataSource = payModeList;
         }
+
+        private static PayModeView instance;
+
+        public static PayModeView GetInstance()
+        {
+            if (instance == null || instance.IsDisposed)
+            {
+                instance = new PayModeView();
+            }
+            else
+            {
+                if (instance.WindowState == FormWindowState.Minimized)
+                {
+                    instance.WindowState = FormWindowState.Normal;
+                }   
+                instance.BringToFront();    
+            }
+            return instance;
+        }   
 
         private void PayModeView_Load(object sender, EventArgs e)
         {
